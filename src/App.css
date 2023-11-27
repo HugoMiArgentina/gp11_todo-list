@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  width: 400px;
+  background-color:beige;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+form {
+  /* background-color: red; */
+  padding: 10px ;
+  display: flex;
+  gap: 10px;
+}
+
+form input{
+  width: 300px;
+  font-size: 15px;
+}
+
+form button {
+  width: 80px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: bisque;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
